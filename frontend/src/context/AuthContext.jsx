@@ -10,6 +10,7 @@ export const AuthContext = createContext();
 const AuthContextProvider = (props) => {
     const navigate = useNavigate();
 
+    {/* Setting up required values */}
     const value = {
         navigate, certificates, universities, companies, projects
     }
