@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <div className="bg-black px-2 py-4 flex items-center justify-between">
         <Link to='/'>
-            <img src={assets.logo_1} className='w-36' onMouseOver={(e) => e.currentTarget.src = assets.logo_2} onMouseOut={(e) => e.currentTarget.src = assets.logo_1}/>
+            <img src={assets.logo_1} className='w-36 rounded-md' onMouseOver={(e) => e.currentTarget.src = assets.logo_2} onMouseOut={(e) => e.currentTarget.src = assets.logo_1}/>
         </Link>
         <div className='flex'>
             <div className='hidden sm:flex gap-5 items-end'>
