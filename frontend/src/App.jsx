@@ -10,7 +10,6 @@ import Certificate from "./pages/Certificate";
 import University from "./pages/University";
 import Company from "./pages/Company";
 import Project from "./pages/Project";
-import OtherLinks from "./pages/OtherLinks";
 
 function App() {
 
@@ -19,14 +18,13 @@ function App() {
       <Header />
       <div className="flex flex-1">
         <Navbar />
-        <div className="flex-1 overflow-y-auto bg-gray-100 h-screen">
+        <div className="flex-1 overflow-y-auto bg-gray-100 h-screen pb-10">
           <Routes>
             <Route path="/" element={<About />}/>
             <Route path="/work-experience" element={<WorkExperience />}/>
             <Route path="/education" element={<Education />}/>
             <Route path="/projects" element={<Projects />}/>
             <Route path="/certifications" element={<Certifications />}/>
-            <Route path="/other-links" element={<OtherLinks />}/>
             <Route path='/certifications/certificate/:certificateId' element={<Certificate />}/>
             <Route path="/education/university/:universityId" element={<University />}/>
             <Route path="/work-experience/company/:companyId" element={<Company />}/>
