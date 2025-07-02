@@ -6,10 +6,10 @@ import azure_AI from './azure_AI_Fundamentals.png';
 import azure from './azure_Fundamentals.png';
 import amrita from './amrita.png';
 import uta from './uta.png';
-import tcs from './tcs.png';
 import forever from './forever.png';
 import ems from './ems.png';
 import tomato from './tomato.png';
+import pnc from './pnc.png';
 
 export const assets = {
     logo_1,
@@ -66,22 +66,22 @@ export const universities = [
 export const companies = [
     {
         _id: 'caaaa',
-        name: 'Tata Consultancy Services',
-        start: 'June 2021',
-        end: 'July 2023',
-        role: 'IOS Developer',
-        responsibilities: ['Developed custom UI components for iOS applications, ensuring compatibility across devices and future iOS updates.','Leveraged MVVM architecture in Xcode to improve app code structure and maintainability.','Designed efficient data storage and retrieval algorithms for user-entered information.','Collaborated with QA to address bugs, delivered optimized code under tight deadlines, and collaborated with project managers to set achievable milestones.','Conducted rigorous pre-development testing to validate application readiness.'],
-        image: tcs,
-        location: 'Gachibowli, Hyderabad, India'
+        name: 'Vivma Software Inc',
+        start: 'January 2021',
+        end: 'August 2023',
+        role: 'JAVA Developer',
+        responsibilities: ['Engineered an Order Management System using Spring Boot and Hibernate, implementing Java multi-threading for high-volume processing during flash sales, reducing order processing time while maintaining uptime in Azure cloud environment.','Developed RESTful APIs for Inventory Management Module using Spring MVC, MongoDB and Angular dashboards, orchestrating microservices architecture with Docker containers for real-time warehouse synchronization, reducing inventory discrepancies by 70%.','Led Agile sprints using JIRA, conducted GitHub code reviews, optimized Java applications with JavaScript integration through Jenkins and Azure DevOps pipelines, improving API response times by 40%.','Implemented third-party shipping service integration using Spring Framework and REST APIs, creating comprehensive API documentation with Swagger and Postman for testing, leading to enhanced customer tracking experience and reduced support tickets.','Established testing framework using JUnit/Mockito with Maven automation and Azure SQL, achieving 85% code coverage while maintaining Confluence documentation for improved team collaboration and knowledge sharing.'],
+        image: uta,
+        location: 'India'
     },
     {
         _id: 'caaab',
-        name: 'University of Texas at Arlington',
-        start: 'February 2024',
-        end: 'December 2024',
-        role: 'Teaching Assistant',
-        responsibilities: ['Assisted in teaching Machine Learning concepts, working closely with the lead instructor to develop course materials.','Held tutorial sessions to clarify complex topics, graded assignments, and provided detailed feedback.','Offered individual support through office hours and facilitated group discussions and labs to reinforce understanding.'],
-        image: uta,
+        name: 'PNC',
+        start: 'August 2024',
+        end: 'Present',
+        role: 'JAVA Developer',
+        responsibilities: ['Developed high-performance banking APIs using Java 11 and modern frameworks, serving thousands of daily users while maintaining 99% test coverage to ensure zero-defect releases and reduce customer service incidents by 25%.','Collaborated in an Agile/Scrum team of 8 developers using JIRA and Confluence for project tracking, participating in daily stand-ups and sprint planning, consistently meeting sprint goals while maintaining effective communication with cross-functional teams.','Led migration of banking platform from legacy to modern architecture using Spring MVC and Hibernate, implementing RESTful services and optimizing MySQL/NoSQL database operations, resulting in improved transaction response times.','Developed microservices components handling 10,000+ daily transactions, implementing Java 11 features with Jersey, managing hybrid database architecture combining MySQL with legacy NoSQL elements, and creating comprehensive API documentation with Postman.','Maintained CI/CD pipelines using Jenkins on AWS EC2 with Docker containers, performing code reviews in GitHub and deploying to AWS CloudFormation, which reduced deployment time by 40% and improved code quality standards across Maven-based projects.'],
+        image: pnc,
         location: 'Arlington, Texas, USA'
     }
 ]
