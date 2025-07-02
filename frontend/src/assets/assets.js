@@ -10,6 +10,7 @@ import forever from './forever.png';
 import ems from './ems.png';
 import tomato from './tomato.png';
 import pnc from './pnc.png';
+import vivma from './vivma.png';
 
 export const assets = {
     logo_1,
@@ -71,7 +72,7 @@ export const companies = [
         end: 'August 2023',
         role: 'JAVA Developer',
         responsibilities: ['Engineered an Order Management System using Spring Boot and Hibernate, implementing Java multi-threading for high-volume processing during flash sales, reducing order processing time while maintaining uptime in Azure cloud environment.','Developed RESTful APIs for Inventory Management Module using Spring MVC, MongoDB and Angular dashboards, orchestrating microservices architecture with Docker containers for real-time warehouse synchronization, reducing inventory discrepancies by 70%.','Led Agile sprints using JIRA, conducted GitHub code reviews, optimized Java applications with JavaScript integration through Jenkins and Azure DevOps pipelines, improving API response times by 40%.','Implemented third-party shipping service integration using Spring Framework and REST APIs, creating comprehensive API documentation with Swagger and Postman for testing, leading to enhanced customer tracking experience and reduced support tickets.','Established testing framework using JUnit/Mockito with Maven automation and Azure SQL, achieving 85% code coverage while maintaining Confluence documentation for improved team collaboration and knowledge sharing.'],
-        image: uta,
+        image: vivma,
         location: 'India'
     },
     {
