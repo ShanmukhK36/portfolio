@@ -9,7 +9,7 @@ const Summary = () => {
         <p>Academically, I hold a Bachelor’s degree in Technology from Amrita Viswa Vidyapeetham, India, and I’m currently pursuing my Master of Science in Applied Statistics and Data Science at the University of Texas at Arlington, with graduation expected in December 2024.</p>
         <div className='flex-row gap-2'>
             <p>Contact: +1 945-246-4973</p>
-            <p>Email: katakamshanmukh@gmail.com</p>
+            <p>Email: shanmukh.k@mailjobtech.com</p>
         </div>
     </div>
   )
