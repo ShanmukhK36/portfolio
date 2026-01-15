@@ -48,8 +48,8 @@ export const universities = [
         studyLevel: 'Bachelors of Technology',
         name: 'Amrita Viswa Vidyapeetham',
         major: 'Electronics and Communication Engineering',
-        start: 'August 2017',
-        end: 'May 2021',
+        start: 'August 2010',
+        end: 'May 2014',
         location: 'Coimbatore, Tamil Nadu, India',
     }
 ]
