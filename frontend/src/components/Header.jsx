@@ -34,7 +34,7 @@ const Header = () => {
         </Link>
         <div className='flex'>
             <div className='hidden sm:flex gap-5 items-end'>
-                <Link to={'https://www.linkedin.com/in/shanmukh-katakam-1356621aa'}>
+                <Link to={'https://www.linkedin.com/in/shanmukh-katakam'}>
                     <FaLinkedin className='w-8 h-8 text-white rounded-md hover:text-black hover:bg-white'/>
                 </Link>
                 <Link to={'https://www.hackerrank.com/profile/katakamshanmukh'}>
