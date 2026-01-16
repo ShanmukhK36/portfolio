@@ -47,7 +47,7 @@ export const universities = [
         image: amrita,
         studyLevel: 'Bachelors of Technology',
         name: 'Amrita Viswa Vidyapeetham',
-        major: 'Electronics and Communication Engineering',
+        major: 'Computer Science',
         start: 'August 2010',
         end: 'May 2014',
         location: 'Coimbatore, Tamil Nadu, India',

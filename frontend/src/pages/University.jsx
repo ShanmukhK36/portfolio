@@ -48,10 +48,6 @@ const University = () => {
             <p className='text-sm font-medium'>Location:</p>
             <p className='text-sm text-gray-600'>{universityData.location}</p>
           </div>
-          <div className='flex flex-col-2 gap-2'>
-            <p className='text-sm font-medium'>CGPA:</p>
-            <p className='text-sm text-gray-600'>{universityData.cgpa}</p>
-          </div>
         </div>
       </div>
     </div>
